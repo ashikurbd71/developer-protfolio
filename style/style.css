@@ -1,0 +1,26 @@
+/*nav section*/
+
+nav{
+    display: flex;
+}
+
+.nav-title{
+    color: #181818;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: ;
+}
+
