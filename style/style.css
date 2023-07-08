@@ -1,7 +1,47 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+  /*cammon style */
+
+
+  body{
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .text-common{
+
+    color: #FD6E0A;
+  }
+
+  .btn-common{
+    color: white;
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 30px;
+    border: none;
+    transition: all 1s;
+    border-radius: 5px;
+  }
+
+  .btn-common:hover{
+    color: black;
+    background-color: aqua;
+    cursor: pointer;
+  }
+
+  /*cammon style */
+
+
 /*nav section*/
 
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+
 }
 
 .nav-title{
@@ -10,8 +50,14 @@ nav{
     font-weight: 800;
 }
 
+.text-i{
+
+    color: #FD6E0A;;
+}
+
 nav > ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
@@ -21,6 +67,17 @@ nav li {
 
 nav a{
     text-decoration: none;
-    color: ;
+    color: #474747 ;
 }
 
+.header{
+   background-color: #FFF8F3; 
+}
+
+/*banner section*/
+
+ .banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+ }
