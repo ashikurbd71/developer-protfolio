@@ -53,6 +53,7 @@ nav{
 .text-i{
 
     color: #FD6E0A;;
+
 }
 
 nav > ul {
@@ -73,12 +74,73 @@ nav a{
 /*banner section*/
 
 .header{
-    background-color: #FFF8F3; 
-     background-image: ;
+  background-color: #FFF8F3; 
+   background-repeat: no-repeat;
+   background-position: bottom right;
+   background-size: 600px;
+   background-image: url('../img/header_bg.png');
+
  }
  
  .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 0px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
+ }
+
+ .banner-btn{
+  background-color: white;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 30px;
+    border: none;
+    transition: all 1s;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    margin-left: 47px;
+    transition: all 1s;
+ }
+
+ .banner-btn:hover{
+  color: white;
+  background-color: #FD6E0A;
+  cursor: pointer;
+ }
+
+ .banner-title{
+  font-size: 45px ;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 0;
+ }
+
+ .banner-head{
+
+  margin-top: 40px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #181818;
+
+ }
+
+ .banner-content{
+  max-width: 500px;
+ }
+
+ .banner-text{
+
+  color: #757575;
+
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+ }
+
+
+ .profile-pic{
+  width: 500px;
+
  }
