@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 
-  /*cammon style */
+  /*common style */
 
 
   body{
@@ -31,7 +31,7 @@
     cursor: pointer;
   }
 
-  /*cammon style */
+  /*common style */
 
 
 /*nav section*/
@@ -70,12 +70,13 @@ nav a{
     color: #474747 ;
 }
 
-.header{
-   background-color: #FFF8F3; 
-}
-
 /*banner section*/
 
+.header{
+    background-color: #FFF8F3; 
+     background-image: ;
+ }
+ 
  .banner{
     padding: 30px 30px 30px 150px;
     display: flex;
